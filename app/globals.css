@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.siteHeader {
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 155, 202);
+}
+
+nav a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid rgb(0, 0, 0);
+}
+
+button,
+input {
+  padding: 8px 12px;
+  margin: 5px;
+}
+
+.courseTools,
+.bandTools {
+  margin-bottom: 20px;
+}
+
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.courseCard,
+.bandCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.bandList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.bandCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bandCard ul {
+  padding-left: 20px;
+}
+
+.bandCard li {
+  margin-bottom: 15px;
+}
+
+.bandCard li img {
+  display: block;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.gameTools,
+.gameForm {
+  margin-bottom: 20px;
+}
+
+.gameForm {
+  display: grid;
+  gap: 8px;
+  max-width: 500px;
+}
+
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.gameCard,
+.gameDetail,
+.deleteConfirm {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.formError {
+  color: #c00;
+  margin: 0 0 5px;
+}
+
+
+.productExplorer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.productForm,
+.productSearchForm {
+  display: grid;
+  gap: 8px;
+  max-width: 600px;
+  margin: 20px 0;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.productSearchForm {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: end;
+}
+
+.productSearchForm > div {
+  display: grid;
+  gap: 5px;
+}
+
+.productTableWrap {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.productTable th {
+  background: #f5f5f5;
+}
+
+.formActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.deleteConfirm {
+  position: fixed;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,.2);
+  z-index: 10;
+}
+
+.productResults {
+  margin-top: 20px;
+}

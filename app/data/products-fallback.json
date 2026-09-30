@@ -1,0 +1,10 @@
+{
+  "products": [
+    {"id": 1, "title": "Fallback Phone", "price": 299, "stock": 10, "category": "smartphones"},
+    {"id": 2, "title": "Fallback Laptop", "price": 1299, "stock": 5, "category": "laptops"},
+    {"id": 3, "title": "Fallback Headphones", "price": 89, "stock": 25, "category": "mobile-accessories"}
+  ],
+  "total": 3,
+  "skip": 0,
+  "limit": 3
+}
